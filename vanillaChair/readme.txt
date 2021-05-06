@@ -9,7 +9,8 @@
 直接拆除“椅子方块”也可移除椅子。
 
 附加提醒：
-- 当（楼梯“转化”成的）椅子面东或面南时，若椅子前紧邻不透明方块，从椅子上下来可能会导致窒息伤害。在椅子两侧添加活板门可避免发生此类情况。
+- 当（楼梯“转化”成的）椅子面东或面南时，若椅子前紧邻不透明方块，下椅子时可能会导致窒息伤害。在两侧添加活板门可避免。
+- 当（楼梯“转化”成的）椅子面西或面北时，若椅子前紧邻楼梯方块，拆除椅子方块并不能移除椅子，需要一并移除前方紧邻的楼梯。
 - 椅子保质期为 3.4 年，过期后椅子会变异成羊驼。
 
 Stand on a slab or a stair, use command /trigger chair to "transform" the block into a chair. 
@@ -26,4 +27,5 @@ Mining the "chair block" directly can also remove the chair.
 
 Notifications:
 - When the chair (transformed from a stair) is facing south or east, and there is a opaque block right in front of it, then getting off the chair may cause suffocoating damage. Attach trapdoors beside the chair block can prevent this.
+- When the chair (transformed from a stair) is facing north or west, and there is a stair block right in front of it, then mining the "chair block" is not enough, and the player has to remove that stair block at the same time to actually remove the chair.
 - The expiration date on each chair is 3.4 years, after that the chair will degrade to a llama.
