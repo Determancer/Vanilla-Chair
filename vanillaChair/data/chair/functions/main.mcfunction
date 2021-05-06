@@ -11,3 +11,4 @@ scoreboard players enable @a chairRemove
 execute as @a[tag=chair_sit,predicate=!chair:sit] at @s run tp ~ ~2 ~
 tag @a[tag=chair_sit] remove chair_sit
 tag @a[predicate=chair:sit] add chair_sit
+execute as @e[type=llama,tag=chair] at @s unless block ~ ~1 ~ #slabs unless block ~ ~1 ~ #stairs run kill @s
