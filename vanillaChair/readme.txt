@@ -6,6 +6,8 @@
 坐着的时候手持胡萝卜钓竿右击即可清除所坐的椅子。
 输入 /trigger chairMode set 0 来关闭。
 
+直接拆除“椅子方块”也可移除椅子。
+
 附加提醒：
 - 当（楼梯“转化”成的）椅子面东或面南时，若椅子前紧邻不透明方块，从椅子上下来可能会导致窒息伤害。在椅子两侧添加活板门可避免发生此类情况。
 - 椅子保质期为 3.4 年，过期后椅子会变异成羊驼。
@@ -19,6 +21,8 @@ In this mode, stand on a slab or a stair, use Carrot on a Stick on it to "transf
 Right-click with bare hands to sit on it.
 When sitting in a chair, use Carrot on a Stick to remove it.
 Use command /trigger chairMode set 0 to disable this mode.
+
+Mining the "chair block" directly can also remove the chair.
 
 Notifications:
 - When the chair (transformed from a stair) is facing south or east, and there is a opaque block right in front of it, then getting off the chair may cause suffocoating damage. Attach trapdoors beside the chair block can prevent this.
